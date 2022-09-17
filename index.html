@@ -8,8 +8,165 @@
     <title>HTML Basics</title>
 </head>
 
+<body>
+    <!-- obično sadrži naziv starnice, logo i navigaciju -->
+    <header>
+        <img src="./hajduk.png" alt="logo Hajfuk" width="100">
+        <!-- <ul>
+            <li>
+                <a href="#">Prvi</a>
+            </li>
+            <li>
+                <a href="#">Drugi</a>
+            </li>
+            <li>
+                <a href="#">Treći</a>
+            </li>
+        </ul> -->
+        <!-- Bolje je kroisiti <nav> -->
+        <nav>
+            <a href="#prvi">Prvi</a>
+            <a href="#drugi">Drugi</a>
+            <a href="#treci">Treći</a>
+            <a href="./primjer.html">primjer</a>
+            <a href="https://hajduk.hr/" target="_blank" rel="noopener noreferrer">Hajduk</a>
+        </nav>
+    </header>
 
-<!-- 
+    <hr>
+    <!-- Glavni dio web stranice -->
+    <main>
+        <!-- Tablice 
+        <table>
+            <thead>
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>Teo</td>
+                    <td>Toula</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+-->
+
+        <!-- <button>Izvan</button> -->
+        <form>
+            <div>
+                <label for="ime">Ime:</label>
+                <input type="text" name="name" id="ime" placeholder="unesi ime" required="true">
+            </div>
+
+            <div>
+                <label for="broj">Broj:</label>
+                <input type="number" name="num" id="broj">
+            </div>
+
+            <div>
+                <label for="">lozinka:</label>
+                <input type="password" name="pass" id="lozinka">
+            </div>
+            <div>
+                <label for="opis">Odaberi :</label>
+                <select name="something" id="opis">
+                    <option value="1">Prvi</option>
+                    <option value="2">Drugi</option>
+                    <option value="3">Treci</option>
+                </select>
+
+            </div>
+
+            <div>
+                <label for="opis">Prihvaćam uvjete korištenja:</label>
+                <textarea name="description" id="opis" cols="30" rows="10"></textarea>
+            </div>
+            <input type="search" name="pretraga">
+
+            <button type="reset">Odustani</button>
+            <button type="submit">Potvrdi</button>
+            <button type="button">Obični</button>
+        </form>
+
+        <section id="drugi">
+            <h2>Drugi section</h2>
+
+            <p>
+                <span>Ipsum is simply dummy text of the printing and typesetting industry.
+                </span>
+                <span> <i>Ipsum</i>has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to
+                    make
+                    a type specimen book.
+                </span>
+                <span>It has <b>survived</b> not only five centuries, but also the leap into electronic
+                    typesetting, remaining essentially unchanged.
+                </span>
+
+                <span> was popularised in the 1960s with the release of Letraset
+                    sheets containing
+                    <span> Lorem </span>Ipsum passages, and more recently with desktop publishing software like Aldus
+                    PageMaker
+                    including
+                    versions
+                    of Lorem Ipsum.
+                </span>
+
+            </p>
+        </section>
+
+        <section id="treci">
+            <h2>treći section</h2>
+
+            <p>
+                <span>Ipsum is simply dummy text of the printing and typesetting industry.
+                </span>
+                <span> <i>Ipsum</i>has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to
+                    make
+                    a type specimen book.
+                </span>
+                <span>It has <b>survived</b> not only five centuries, but also the leap into electronic
+                    typesetting, remaining essentially unchanged.
+                </span>
+
+                <span> was popularised in the 1960s with the release of Letraset
+                    sheets containing
+                    <span> Lorem </span>Ipsum passages, and more recently with desktop publishing software like Aldus
+                    PageMaker
+                    including
+                    versions
+                    of Lorem Ipsum.
+                </span>
+
+            </p>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- obično sadrži informacije o vlasniku, prava korištenja, social media -->
+    <footer>
+        <span>informacije:</span>
+        <address>
+            <a href="mailto:teotooula@yahoo.com">teotooula@yahoo.com</a><br>
+            <a href="tel:+13115552368">(311) 555-2368</a>
+        </address>
+        <!-- korištenje entiteta -->
+        <small>Ⓒ Sva prava pridržana </small>
+        <small>&copy; Sva prava pridržana </small>
+    </footer>
+
+
+    <!-- 
 <h1>Brain lab</h1>
 <h2>Brain lab</h2>
 <h3>Brain lab</h3>
@@ -20,35 +177,8 @@
 <strong>Pajdo</strong>
 
 
-<p>
-    <span>Ipsum is simply dummy text of the printing and typesetting industry.
-    </span>
-    <span> <i>Ipsum</i>has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-        make
-        a type specimen book.
-    </span>
-    <span>It has <b>survived</b> not only five centuries, but also the leap into electronic
-        typesetting, remaining essentially unchanged.
-    </span>
-
-    <span> was popularised in the 1960s with the release of Letraset
-        sheets containing
-        <span> Lorem </span>Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-        including
-        versions
-        of Lorem Ipsum.
-    </span>
-
-<h1> <a href="./primjer.html">Otvori Hajduk</a> </h1>
-
-
-
-<body>-->
-
-
-
-
+    <h1> <a href="./primjer.html">Otvori Hajduk</a> </h1>
+-->
 </body>
 
 </html>
